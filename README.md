@@ -58,3 +58,19 @@ To run this project locally, you need to have the following installed:
     Once you've installed the dependencies and set up Firebase, run the following command to start the development server:
     ```bash
    npm start
+
+## Login Details
+
+### Admin Login:
+
+    Email: admin@gmail.com
+    Password: admin321@
+
+    Admins will have access to manage companies and communications, as well as view notifications and calendar details.
+
+### User Login:
+
+    Email: user@gmail.com
+    Password: user321@
+
+    Users will be able to view their assigned companies, log communications, and view notifications. They also have access to the calendar view for their respective companies.

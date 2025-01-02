@@ -34,7 +34,7 @@ const LogIn = () => {
                 const user = userCredential.user;
                 setLoder(false);
                 if (user && user.email) {
-                    const role = user.email === "admin123@gmail.com" ? "admin" : "user";
+                    const role = user.email === "admin@gmail.com" ? "admin" : "user";
                     const userData = { email: user.email, role };
                     localStorage.setItem('user', JSON.stringify(userData));
                     setUser(userData);
